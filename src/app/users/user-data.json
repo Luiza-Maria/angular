@@ -1,0 +1,125 @@
+{
+  "users": [
+    {
+      "id": "00000ddddddd",
+      "firstname": "",
+      "lastname": "Nicola",
+      "email": "alabala@gmail.com",
+      "password": "ddddddd",
+      "adress": "Filiasi",
+      "city": "Filiasi",
+      "state": "",
+      "zip": "00000"
+    },
+    {
+      "id": "111222",
+      "firstname": "Sebi",
+      "lastname": "Ulm",
+      "email": "sebi@gmail.com",
+      "password": "cvdfgbcvcxhfg",
+      "adress": "Craiova",
+      "city": "Craiova",
+      "state": "",
+      "zip": "111222"
+    },
+    {
+      "id": "77777",
+      "firstname": "bngcjgng",
+      "lastname": "cghfcghvg",
+      "email": "hvgncghc@gmail.com",
+      "password": "bmbnmbgdfgfdg",
+      "adress": "Filiasi",
+      "city": "Craiova",
+      "state": "",
+      "zip": "77777"
+    },
+    {
+      "id": "77777Austria",
+      "firstname": "hhgjg",
+      "lastname": "hjj",
+      "email": "nmbh@gmail.com",
+      "password": "bmbnmbghgh",
+      "adress": "yuthggchjghj",
+      "city": "ghjghjkghkh",
+      "state": "Austria",
+      "zip": "77777"
+    },
+    {
+      "id": "2222222Finlanda",
+      "firstname": "Luiza",
+      "lastname": "Maria",
+      "email": "luizanicola32@gmail.com",
+      "password": "bmbnmb",
+      "adress": "1234 St",
+      "city": "Craiova",
+      "state": "Finlanda",
+      "zip": "2222222"
+    },
+    {
+      "id": "6655Italia",
+      "firstname": "Maria",
+      "lastname": "Nicola",
+      "email": "alabaljjjjjja@gmail.com",
+      "password": "bmbnmbjjjjjj",
+      "adress": "Filiasi",
+      "city": "Filiasi",
+      "state": "Italia",
+      "zip": "6655"
+    },
+    {
+      "id": "4444Finlanda",
+      "firstname": "test1",
+      "lastname": "test2",
+      "email": "test@gmail.com",
+      "password": "bdfdfgbcbhgh",
+      "adress": "Fil",
+      "city": "craiova",
+      "state": "Finlanda",
+      "zip": "4444"
+    },
+    {
+      "id": "444444444Islanda",
+      "firstname": "Luiza",
+      "lastname": "Maria",
+      "email": "test@gmail.com",
+      "password": "bdfdfgbcbhgh",
+      "adress": "1234 St",
+      "city": "Craiova",
+      "state": "Islanda",
+      "zip": "444444444"
+    },
+    {
+      "id": "5555555Letonia",
+      "firstname": "test1",
+      "lastname": "test2",
+      "email": "alabalnmjha@gmail.com",
+      "password": "dddddddkkjhjk",
+      "adress": "Fil",
+      "city": "craiova",
+      "state": "Letonia",
+      "zip": "5555555"
+    },
+    {
+      "id": "999999Italia",
+      "firstname": "test1",
+      "lastname": "test2",
+      "email": "alabafyfghjgjla@gmail.com",
+      "password": "ddddddd",
+      "adress": "Fil",
+      "city": "craiova",
+      "state": "Italia",
+      "zip": "999999"
+    },
+    {
+      "id": "123456Austria",
+      "firstname": "Luz",
+      "lastname": "Maria",
+      "email": "luiza@gmail.com",
+      "password": "ssssssss",
+      "adress": "Fra",
+      "city": "Fil",
+      "state": "Austria",
+      "zip": "123456"
+    }
+  ]
+}

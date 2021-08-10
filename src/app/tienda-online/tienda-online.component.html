@@ -1,0 +1,40 @@
+<div class="navigation">
+    <a routerLink="nb1" (click)="selectNb()">1</a>
+    <a routerLink="nb2" (click)="selectNb()">2</a>
+    <a routerLink="nb3" (click)="selectNb()">3</a>
+    <a routerLink="nb4" (click)="selectNb()">4</a>
+    <a routerLink="nb5" (click)="selectNb()">5</a>
+    </div>
+
+
+
+    <div class="container-fluid" *ngIf="!wasSelected">
+        <div class="row">
+                <!-- <marquee direction="up"> -->
+                    <div class="my-cloud">
+                    <div class="cont first">
+                        <img src="assets/games/cloudorchid.png" style="width: 220px;"/>
+                        <div class="centered">1</div>
+                        </div>
+                        <div class="cont second">
+                            <img src="assets/games/cloudgreen.png" style="width: 220px"/>
+                            <div class="centered">2</div>
+                            </div>
+                            <div class="cont third">
+                                <img src="assets/games/cloudyellow.png" style="width: 220px;"/>
+                                <div class="centered">3</div>
+                                </div>
+                                <div class="cont fourth">
+                                    <img src="assets/games/cloudblue.png" style="width: 220px;"/>
+                                    <div class="centered">4</div>
+                                    </div>
+                                    <div class="cont fifth">
+                                        <img src="assets/games/cloudciel.png" style="width: 220px"/>
+                                        <div class="centered">5</div>
+                                        </div>
+                                    </div>
+                <!-- </marquee> -->
+            </div>
+    </div>
+
+<router-outlet  *ngIf="wasSelected"></router-outlet>

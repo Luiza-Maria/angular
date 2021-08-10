@@ -1,0 +1,86 @@
+{
+  "clothesShopp": [
+    {
+      "id": 6,
+      "name": "Rochie",
+      "quantity": "15",
+      "price": 8.29,
+      "photo": [
+        "assets/popular/rochie6.jpg"
+      ],
+      "color": "orange"
+    },
+    {
+      "id": 8,
+      "quantity": 1,
+      "name": "Rochie",
+      "price": 58.99,
+      "photo": [
+        "assets/popular/rochie8.jpeg"
+      ],
+      "color": "orange"
+    },
+    {
+      "id": 3,
+      "quantity": 1,
+      "name": "Rochie",
+      "price": 112.99,
+      "photo": [
+        "assets/popular/rochie3.jpg"
+      ],
+      "color": "green"
+    },
+    {
+      "id": 11,
+      "quantity": 1,
+      "name": "Bluza Denim",
+      "price": 50.99,
+      "photo": [
+        "assets/bluza/bluza1.jpg",
+        "assets/bluza/bluza2.jpg",
+        "assets/bluza/bluza3.jpg"
+      ],
+      "color": "red"
+    },
+    {
+      "id": 7,
+      "quantity": 10,
+      "name": "Tricou",
+      "price": 45.99,
+      "photo": [
+        "assets/popular/rochie7.jpg"
+      ],
+      "color": "blue"
+    },
+    {
+      "id": 12,
+      "quantity": 1,
+      "name": "Tricou",
+      "price": 72.99,
+      "photo": [
+        "assets/popular/tricou4.jpg"
+      ],
+      "color": "orchid"
+    },
+    {
+      "id": 2,
+      "name": "Rochie",
+      "quantity": "10",
+      "price": 31.99,
+      "photo": [
+        "assets/popular/rochie2.jpg"
+      ],
+      "color": "lightgreen"
+    },
+    {
+      "id": 10,
+      "name": "Pantalon",
+      "quantity": "5",
+      "price": 35.99,
+      "photo": [
+        "assets/popular/pant1.jpg"
+      ],
+      "color": "orchid"
+    }
+  ]
+}

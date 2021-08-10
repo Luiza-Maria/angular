@@ -1,0 +1,507 @@
+@mixin button {
+    background: white;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+}
+$weight : 700;
+$color : black;
+$border-top-left: 10px;
+$border-top-right: 10px;
+$border-radius: 10px;
+$background:  #343e40;
+
+#my-home {
+    margin-top: 0px;
+    background: #343e40;
+    .container-fluid {
+        margin-top: 0px;
+        .carousel-item{
+            .carousel-caption {
+                // border: 1px solid red;
+                width: 100%;
+                top:0px;
+                left: 0px;
+                bottom:0px;
+                right: 0px;
+                .view_more {
+                    background-color: transparent;
+                    border: 2px solid white;
+                    border-radius: 30px;
+                    width: 120px;
+                    top: 50%;
+                    left: 10%;
+                    transform:translate(-50%);
+                    position: absolute;
+                        
+                }  
+            }
+        }
+     
+    }
+}
+
+//popular items
+#popular-items {
+    border: 1px solid red;
+    .popular-title {
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+        .popular-title {
+            overflow: hidden;
+            text-align: center;
+            color: white;
+          }
+          
+          .popular-title:before,
+          .popular-title:after {
+            background-color: grey;
+            content: "";
+            display: inline-block;
+            height: 1px;
+            position: relative;
+            vertical-align: middle;
+            width: 50%;
+          }
+          
+          .popular-title:before {
+            right: 0.5em;
+            margin-left: -50%;
+          }
+          
+          .popular-title:after {
+            left: 0.5em;
+            margin-right: -50%;
+          } 
+    .card-deck {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+}
+.card {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: $border-radius;
+    border:1px solid rgb(59,55,55);
+    padding-bottom: 10px;
+    img{
+        border-top-left-radius: $border-top-left;
+        border-top-right-radius: $border-top-right;
+        height: 80%;
+        border-bottom: 1px solid rgb(59,55,55);
+    }
+}
+#more-products {
+    text-align: center;
+    padding-bottom: 20px;
+    #load-more {
+        text-align: center;
+        border: 1px solid white;
+        background:   #343e40;
+        color: white;
+        width: 300px;
+        border-radius: 10px;
+        .fas {
+            margin-left: 6px;
+        }
+    }
+
+}
+p:first-child{
+    margin-bottom: 0px;
+}
+.price {
+    font-weight:  $weight;
+    color: $color;
+}
+
+#load {
+    text-align: center;
+    button {
+        background: transparent;
+        color: white;
+        border-radius: 30px;
+        width: 300px;
+        height: 50px;
+        text-transform: uppercase;
+        border:1px solid white;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}
+.display {
+    display: none;
+}
+
+#featured-products {
+    padding-bottom: 50px;
+    // border: 1px solid yellow;
+    #featured {
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .controls-top {
+        text-align: center;
+    }
+    .featured-title {
+        color: white;
+        text-align: center;
+        display: inline;
+    }
+        .featured-title {
+            overflow: hidden;
+            text-align: center;
+            color: white;
+          }
+          
+          .featured-title:before,
+          .featured-title:after {
+            background-color: grey;
+            content: "";
+            display: inline-block;
+            height: 1px;
+            position: relative;
+            vertical-align: middle;
+            width: 15%;
+          }
+          
+          .featured-title:before {
+            right: 0.5em;
+            margin-left: -30%;
+          }
+          
+          .featured-title:after {
+            left: 0.5em;
+            margin-right: -30%;
+          }
+          .left {
+            //   float: left;
+              display: inline-flex;
+              margin-right: 500px;
+            //   border: 1px solid red;
+            }
+            .right {
+                // float: right;
+                display: inline-flex;
+                margin-left: 500px;
+            }
+          
+            .container-fluid{
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top:20px;
+            }
+        }
+        #myCarouselExampleIndicators {
+            border: 1px solid rgb(230, 98, 105);
+            .carousel-indicators{
+                border: 1px solid green;
+                margin: 0px;
+                position: relative;
+            }
+        }
+@media screen and (max-width: 480px) {
+
+  
+
+    .view_more{
+        max-width: 100px;
+        font-size: auto;
+        margin-left: 5%;
+        border: 1px solid rebeccapurple;
+    }
+    #featured-products {
+        #multi-item-example{
+            // border: 1px solid lime;
+            padding: 0px;
+            .controls-top{
+                border: 1px solid grey;
+                text-align: center;
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+
+        }
+        .popular-title:before,
+        .popular-title:after {
+          width: 14%;
+        }
+        
+        #featured {
+            font-size: 20px;
+        }
+        .left {
+              display: inline;
+              margin-right:140px;
+            }
+            .right {
+                display: inline;
+                margin-left: 140px;
+            }
+            .container-fluid{
+                text-align: center;
+                border: 1px solid yellow;
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+        .card-deck{
+            margin-left: 0px;
+            margin-right: 0px;
+            border: 1px solid orchid;
+            display: inline;
+            text-align: center;
+            .card {
+                min-width: 70px;
+                max-width: 100px;
+                display: inline-block;
+                img {
+                    width: 100%;
+                    height: 50vw;
+                    object-fit: cover;
+                }
+                .card-body, h4 {
+                    font-size:12px;
+                }
+            }
+        }
+       
+    }
+    #popular-items {
+       
+        .container-fluid{
+            border: 1px solid yellow;
+            margin-left:0px;
+                margin-right:0px;
+                padding-left: 0px;
+                padding-right: 0px;
+            #my-carousel {
+                width: 100%;
+                margin-left:0px;
+                margin-right:0px;
+                padding-left: 0px;
+                padding-right: 0px;
+                .carousel-inner {
+                    // border: 1px solid pink;
+                    margin-left:0px;
+                margin-right:0px;
+                img {
+                    width: 100%;
+                    height: 80vw;
+                    object-fit: cover;
+                }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px)  {
+    .view_more{
+        width: 50px;
+        font-size: auto;
+        margin-left: 5%;
+        border: 1px solid rebeccapurple;
+    }
+
+    #featured-products {
+      
+        .featured-title:before,
+        .featured-title:after {
+          width: 20%;
+        }
+        
+        #featured {
+            font-size: 25px;
+        }
+        .left {
+              display: inline-flex;
+              margin-right:230px;
+            }
+            .right {
+                display: inline-flex;
+                margin-left: 230px;
+            }
+            .container-fluid{
+                text-align: center;
+                border: 1px solid red;
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+           
+            h4,p,.fa-circle {
+                font-size: 10px;
+                margin-bottom: 3px;
+                margin-top: 5px;
+            }
+
+            .card-deck{
+                border: 1px solid blue;
+                display: inline-block;
+                text-align: center;
+                padding-left: 0px;
+                padding-right: 0px;
+                margin-right: 0px;
+                margin-left:0px;
+                .card {
+                    min-width: 60px;
+                    max-width: 200px;
+                    display: inline-block;
+                    img {
+                       margin-bottom: 5px;
+                       height: 40vw;
+                       object-fit: cover;
+                       width: 100%;
+                    }
+                }
+            }
+        }
+        #my-carousel {
+            img{
+                margin-bottom: 5px;
+                       height: 80vw;
+                       object-fit: cover;
+                       width: 100%;
+
+            }
+        }
+
+        #popular-items {
+       
+            .container-fluid{
+                border: 1px solid yellow;
+                margin-left:0px;
+                    margin-right:0px;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                #my-carousel {
+                    width: 100%;
+                    margin-left:0px;
+                    margin-right:0px;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    .carousel-inner {
+                        // border: 1px solid pink;
+                        margin-left:0px;
+                    margin-right:0px;
+                    img {
+                        width: 100%;
+                        height: 80vw;
+                        object-fit: cover;
+                    }
+                    }
+                }
+            }
+        }
+    
+    }
+
+@media screen and (min-width: 768px) and (max-width:817px)  {
+    #featured-products {
+        border: 1px solid red;
+      
+        .featured-title:before,
+        .featured-title:after {
+            min-width: 10%;   
+        }
+       
+        .controls-top{
+            border: 1px solid lime;
+            padding: 0px;
+            text-align: center;
+        }
+        
+        #featured {
+            font-size: 25px;
+        }
+        .left {
+            border: 1px solid pink;
+            display: inline;
+            margin-right: 270px;
+          }
+          .right {
+              display: inline;
+              margin-left: 270px;
+              border: 1px solid pink;
+          }
+          h4 {
+              font-size: 14px;
+              margin-top: 2px;
+              font-weight: 600;
+
+          }
+         p,.fa-circle {
+            font-size: 12px;
+            margin-bottom: 3px;
+            margin-top: 0px;
+        }
+        .container-fluid{
+            .card-deck {
+                .card-body {
+                    padding-top: 0px;
+                    padding-bottom: 5px;;
+                }
+            }
+        }
+       
+    }
+
+}
+
+@media screen and (min-width: 817px) and (max-width:1200px)  {
+
+    .featured-title {
+        border: 1px solid blue;
+    }
+    .featured-title:before,
+        .featured-title:after {
+            min-width: 12%;
+         
+        }
+     
+        .controls-top{
+            border: 1px solid lime;
+            padding: 0px;
+            text-align: center;
+        }
+        
+        #featured {
+            font-size: 25px;
+        }
+        .left {
+            border: 1px solid pink;
+            display: inline;
+            margin-left: auto;
+          }
+          .right {
+              display: inline;
+              margin-right: auto;
+              border: 1px solid pink;
+          }
+          h4 {
+              font-size: 14px;
+              margin-top: 2px;
+              font-weight: 600;
+
+          }
+    p,.fa-circle {
+        font-size: 12px;
+        margin-bottom: 3px;
+        margin-top: 0px;
+    }
+    .container-fluid{
+        .card-deck {
+            .card-body {
+                padding-top: 0px;
+                padding-bottom: 5px;;
+            }
+        }
+    }
+   
+
+}

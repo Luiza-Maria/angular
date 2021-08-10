@@ -1,0 +1,65 @@
+{
+  "wishList": [
+    {
+      "id": 3,
+      "name": "Pantalon",
+      "price": 112.99,
+      "photo": [
+        "assets/pantalon/pant1.jpg",
+        "assets/pantalon/pant2.jpg",
+        "assets/pantalon/pant3.jpg",
+        "assets/pantalon/pant4.jpg"
+      ],
+      "color": [
+        "red",
+        "lime",
+        "green",
+        "white"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Bluza Denim",
+      "price": 50.99,
+      "photo": [
+        "assets/bluza/bluza1.jpg",
+        "assets/bluza/bluza2.jpg",
+        "assets/bluza/bluza3.jpg"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Rochie",
+      "price": 57.99,
+      "photo": [
+        "assets/popular/rochie5.jpg"
+      ],
+      "color": [
+        "orchid",
+        "blue",
+        "orange",
+        "yellow"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Tricou",
+      "price": 72.99,
+      "photo": [
+        "assets/popular/tricou4.jpg"
+      ],
+      "color": [
+        "orchid",
+        "blue",
+        "orange",
+        "yellow"
+      ]
+    }
+  ]
+}

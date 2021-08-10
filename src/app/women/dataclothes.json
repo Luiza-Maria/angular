@@ -1,0 +1,28 @@
+{
+  "clothes": [
+    {
+      "id": 1,
+      "name": "Bluza Denim",
+      "price": 50.99,
+      "photo": "assets\bluza2.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Tricou",
+      "price": 31.99,
+      "photo": "assets\bluza3.jpg"
+    },
+    {
+     "id": 3,
+      "name": "Pantalon",
+      "price": 66.99,
+      "photo": "assets\bluza4.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Sacou",
+      "price": 112.99,
+      "photo": "assets\bluza5.jpg"
+    }
+  ]
+}

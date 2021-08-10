@@ -1,0 +1,90 @@
+
+{
+  "clothes": [
+    {
+      "id": 1,
+      "name": "Rochie",
+      "price": 50.99,
+      "photo": ["assets/popular/rochie1.jpg"],
+      "color":["red","blue","green","yellow"]
+    },
+    {
+      "id": 2,
+      "name": "Rochie",
+      "price": 31.99,
+      "photo": ["assets/popular/rochie2.jpg"],
+      "color":["lightgreen","blue","black","yellow"]
+    },
+    {
+      "id": 3,
+      "name": "Rochie",
+      "price": 112.99,
+      "photo": ["assets/popular/rochie3.jpg"],
+      "color":["red","lime","green","white"]
+    },
+    {
+      "id": 4,
+      "name": "Rochie",
+      "price": 87.99,
+      "photo": ["assets/popular/rochie4.jpeg"],
+      "color":["orchid","blue","orange","yellow"]
+    },
+    {
+      "id": 5,
+      "name": "Rochie",
+      "price": 57.99,
+      "photo": ["assets/popular/rochie5.jpg"],
+      "color":["orchid","blue","orange","yellow"]
+    },
+    {
+      "id": 6,
+      "name": "Rochie",
+      "price": 8.29,
+      "photo": ["assets/popular/rochie6.jpg"],
+      "color":["orchid","blue","orange","yellow"]
+    },
+    {
+      "id": 7,
+      "name": "Tricou",
+      "price": 45.99,
+      "photo": ["assets/popular/rochie7.jpg"],
+      "color":["orchid","blue","orange","yellow"]
+    },
+    {
+      "id": 8,
+      "name": "Rochie",
+      "price": 58.99,
+      "photo": ["assets/popular/rochie8.jpeg"],
+      "color":["orchid","blue","orange","yellow"]
+    },
+    {
+      "id": 9,
+      "name": "Bluza",
+      "price": 22.99,
+      "photo": ["assets/popular/bluza1.jpg"],
+      "color":["orchid","blue","orange","yellow"]
+    },
+    {
+      "id": 10,
+      "name": "Pantalon",
+      "price": 35.99,
+      "photo": ["assets/popular/pant1.jpg"],
+      "color":["orchid","blue","orange","yellow"]
+    },
+    {
+      "id": 11,
+      "name": "Tricou",
+      "price": 58.99,
+      "photo": ["assets/popular/tricou1.jpg"],
+      "color":["orchid","blue","orange","yellow"]
+    },
+    {
+      "id": 12,
+      "name": "Tricou",
+      "price": 72.99,
+      "photo": ["assets/popular/tricou4.jpg"],
+      "color":["orchid","blue","orange","yellow"]
+    }
+
+  ]
+}

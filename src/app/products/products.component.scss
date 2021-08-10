@@ -1,0 +1,67 @@
+#fullPage {
+    background: rgb(235, 163, 163);
+    
+}
+
+.card {
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.card-body {
+    text-align: center;
+    font-weight: 600;
+    // border: 1px solid red;
+    i {
+        font-size:16px;
+    }
+}
+.fa-heart {
+    color: red;
+    max-width: 40px;
+}
+.fa-info {
+    max-width: 40px;
+}
+
+@media screen and (max-width: 267px)  {
+    img{
+        height: 90vw;
+        object-fit: cover;
+        width: 100%;
+    }
+    .card-body{
+        display: block;
+        text-align: center;
+       
+      
+    }
+    h4 {
+        font-size: 16px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .fa-circle, .fa-heart,.fa-info{
+        font-size: 8px;
+    }
+    button{
+        width: 85px;
+}
+    }
+
+    @media screen and (min-width: 267px) and (max-width: 767px)  {
+      
+        img{
+            height: 70vw;
+            object-fit: cover;
+            width: 100%;
+        }
+        .container-fluid {
+            text-align: center;
+        }
+
+    }
+
+

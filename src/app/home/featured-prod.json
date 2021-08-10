@@ -1,0 +1,192 @@
+{
+    "featured": [
+      {
+        "id": 1,
+        "name": "Bluza Den",
+        "price": 50.99,
+        "photo": [
+          "assets/bluza/bluza1.jpg",
+          "assets/bluza/bluza2.jpg",
+          "assets/bluza/bluza3.jpg"
+        ],
+        "color": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Rochie 1",
+        "price": 78.99,
+        "photo": [
+          "assets/rochie/rochie1.jpg",
+          "assets/rochie/rochie2.jpg",
+          "assets/rochie/rochie3.jpg",
+          "assets/rochie/rochie4.jpg"
+        ],
+        "color": [
+          "orchid",
+          "blue",
+          "orange",
+          "yellow"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Tricou 1",
+        "price": 31.99,
+        "photo": [
+          "assets/tricou/tricou1.jpg",
+          "assets/tricou/tricou2.jpg",
+          "assets/tricou/tricou3.jpg",
+          "assets/tricou/tricou4.jpg"
+        ],
+        "color": [
+          "lightgreen",
+          "blue",
+          "black",
+          "yellow"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Rochie 1",
+        "price": 8.29,
+        "photo": [
+          "assets/popular/rochie6.jpg"
+        ],
+        "color":  [
+            "lightgreen",
+            "blue",
+            "black",
+            "yellow"
+          ]
+      },
+      {
+        "id": 5,
+        "name": "Tricou 2",
+        "price": 31.99,
+        "photo": [
+          "assets/tricou/tricou1.jpg",
+          "assets/tricou/tricou2.jpg",
+          "assets/tricou/tricou3.jpg",
+          "assets/tricou/tricou4.jpg"
+        ],
+        "color":  [
+            "lightgreen",
+            "blue",
+            "black",
+            "yellow"
+          ]
+      },
+      {
+        "id": 6,
+        "name": "Tricou 2",
+        "price": 45.99,
+        "photo": [
+          "assets/popular/rochie7.jpg"
+        ],
+        "color":  [
+            "lightgreen",
+            "blue",
+            "black",
+            "yellow"
+          ]
+      },
+     
+      {
+        "id": 7,
+        "name": "Rochie 2",
+        "price": 57.99,
+        "photo": [
+          "assets/popular/rochie5.jpg"
+        ],
+        "color":  [
+            "lightgreen",
+            "blue",
+            "black",
+            "yellow"
+          ]
+      },
+      {
+        "id": 8,
+        "name": "Rochie 2",
+        "price": 50.99,
+        "photo": [
+          "assets/popular/rochie1.jpg"
+        ],
+        "color":  [
+            "lightgreen",
+            "blue",
+            "black",
+            "yellow"
+          ]
+      },
+      {
+        "id": 9,
+        "name": "Bluza new 3",
+        "price": 50.99,
+        "photo": [
+          "assets/bluza/bluza1.jpg",
+          "assets/bluza/bluza2.jpg",
+          "assets/bluza/bluza3.jpg"
+        ],
+        "color": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Rochie new 3",
+        "price": 78.99,
+        "photo": [
+          "assets/rochie/rochie1.jpg",
+          "assets/rochie/rochie2.jpg",
+          "assets/rochie/rochie3.jpg",
+          "assets/rochie/rochie4.jpg"
+        ],
+        "color": [
+          "orchid",
+          "blue",
+          "orange",
+          "yellow"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Tricou new 3",
+        "price": 31.99,
+        "photo": [
+          "assets/tricou/tricou1.jpg",
+          "assets/tricou/tricou2.jpg",
+          "assets/tricou/tricou3.jpg",
+          "assets/tricou/tricou4.jpg"
+        ],
+        "color": [
+          "lightgreen",
+          "blue",
+          "black",
+          "yellow"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Rochie new 3",
+        "price": 8.29,
+        "photo": [
+          "assets/popular/rochie6.jpg"
+        ],
+        "color":  [
+            "red",
+            "darkgreen",
+            "lightblue",
+            "purple"
+          ]
+      }
+    ]
+  }

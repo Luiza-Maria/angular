@@ -1,0 +1,74 @@
+<!-- <app-navigation ></app-navigation> -->
+<div style="overflow-x:auto;">
+<h2> Your order </h2>
+ <table >
+     <tr>
+         <th>ID
+         </th>
+         <th>Image
+        </th>
+         <th>
+             Name
+            </th>
+            <th>
+                Color
+                </th>
+            <th>
+               Quantity
+               </th>
+               <th>
+                Price/buc
+               </th>
+               <th>
+                   Price*Quantity
+               </th>
+               <th>
+                   Remove prod
+               </th>
+            </tr>
+     <tr class="all-row" *ngFor="let list of myList,let i=index">
+         <td>
+             {{list.id}}
+         </td>
+         <td>
+            <img src="{{list.photo[0]}}" style="width: 30px; height: auto" alt="poza"/>
+        </td>
+         <td> {{list.name}}
+         </td>
+         <td [style.background]="list.color"> 
+        </td>
+         <td>
+             <input class="my-input" 
+             type="number" 
+             (keyup.enter) = "updateProd(list,inpValue.value)" 
+             #inpValue 
+             value="{{list.quantity}}" />
+           
+         </td>    
+         <td> {{list.price}}
+        </td>
+         <td> {{list.price * list.quantity}} 
+         </td>
+         <td>
+             <button class="delete-button" (click)="deleteProd(list.id)">Delete</button>
+         </td>
+        </tr>
+        <tr class="nbProd"> 
+            <td>
+                Nb of  products
+            </td>
+            <td class="last-td" colspan="7">
+                {{getSum()}}
+            </td>
+        </tr>
+        <tr> 
+            <td>
+                Total
+            </td>
+            <td class="last-td" colspan="7">
+                {{getTotal()}}
+            </td>
+        </tr>
+
+    </table>
+</div>

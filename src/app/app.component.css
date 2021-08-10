@@ -1,0 +1,15 @@
+nav {
+    text-align: center; 
+    font-size: 25px; 
+}
+
+a:nth-child(odd) {
+    color: lightgreen;
+    font-weight: 600;
+}
+a:nth-child(even) {
+    color: orange;
+    font-weight: 600;
+}
+
+
