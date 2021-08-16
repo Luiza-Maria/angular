@@ -9,7 +9,6 @@ import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FormGroup, FormControl } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { TiendaOnlineComponent } from './tienda-online/tienda-online.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { WomenComponent } from './women/women.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
@@ -26,20 +25,13 @@ import { FilterPipe } from './filter.pipe';
 import { DetailProdService } from './products/detail-prod.service';
 import { UsersComponent } from './users/users.component';
 import { RegisterUserComponent } from './register-user/register-user.component';
-import { OneComponent } from './tienda-online/one/one.component';
-import { TwoComponent } from './tienda-online/two/two.component';
-import { ThreeComponent } from './tienda-online/three/three.component';
-import { FourComponent } from './tienda-online/four/four.component';
-import { FiveComponent } from './tienda-online/five/five.component';
+
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-  
-
-    TiendaOnlineComponent,
     NavigationComponent,
     WomenComponent,
     CartPageComponent,
@@ -50,15 +42,7 @@ import { FiveComponent } from './tienda-online/five/five.component';
     FooterPageComponent,
     FilterPipe,
     UsersComponent,
-    RegisterUserComponent,
-    OneComponent,
-    TwoComponent,
-    ThreeComponent,
-    FourComponent,
-    FiveComponent,
-    
-
-
+    RegisterUserComponent
   ],
   imports: [
     BrowserModule,

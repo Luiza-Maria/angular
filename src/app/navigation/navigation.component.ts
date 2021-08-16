@@ -20,10 +20,10 @@ import * as $ from 'jquery';
 export class NavigationComponent implements OnInit {
   @Input() nameInput;
   myList = [];
-  @ViewChild("modal", { static: false }) modal: ElementRef;
-  @ViewChild("password", { static: false }) password: ElementRef;
-  @ViewChild("name", { static: false }) name: ElementRef;
-  @ViewChild("email", { static: false }) email: ElementRef;
+  @ViewChild("modal") modal: ElementRef;
+  @ViewChild("password") password: ElementRef;
+  @ViewChild("name") name: ElementRef;
+  @ViewChild("email") email: ElementRef;
   showPassword: boolean = false;
   showContent: boolean = false;
   productsWishlist: QuantityProd[] = [];

@@ -67,7 +67,6 @@
         padding-left: 16px;
         padding-right: 16px;
         text-decoration: none;
-        // border:1px solid red;
     }
     a :hover {
       cursor: pointer;
@@ -87,24 +86,20 @@
       border-radius: 5px;
     }
     .container {
-      // border: 1px solid yellow;
       padding-left: 0px;
     }
     .row{
-      // border: 2px solid blue;
       padding-left: 0px;
     }
     .left-nav{
       text-align: left;
       padding-left: 0px;
       margin-left: 0px;
-      // border: 1px solid red;
     .dropdown {
         float: left;
         overflow: hidden;
         left: 0;
         right: 0;
-        border: 1px solid red;
       }
       .show {
         display: block;
@@ -229,48 +224,34 @@ sup {
 }
   }
 @media screen and (max-width: 497px) {
-  // .navbar-brand {
-  //   display: none;
-  // }
   .right-nav {
-    // border: 1px solid red;
     #float-right{
     float: none;
     #right {
       display: block;
       margin-top: 10px;
       float: right;
-      padding-right: 8px;
-      // border: 1px solid red;  
+      padding-right: 8px;  
     }
   }
 }
   .left-nav {
     display:inline-block;
-    // border: 1px solid pink;
     .dropdown {
       display:inline-block;
-      // border: 1px solid blue;
     }
   }
   .center-nav {
     display: inline-block;
-    // border: 1px solid greenyellow;
     padding: 0px;
     text-align: right;
     #search {
       margin: 0px;
-      // border: 1px solid rgb(121, 22, 202);
-      // margin-top: 10px;
-      // float: right;
-      // padding-right: 8px;
       width: 100%;
       padding: 0px;
       padding-top: 21px;
       
       #search-input {
-        // border: 1px solid fuchsia;
-       
         max-width: 120px;
         i {
           float: right;
@@ -282,39 +263,31 @@ sup {
 }
 
 @media screen and (min-width: 497px) and (max-width: 768px)  {
-  .navigation {
-    border: 1px solid red;
-  }
+ 
   .left-nav {
     display:inline-block;
-    // border: 1px solid pink;
     .dropdown {
       display:inline-block;
-      // float: none;
       font-size: 14px;
-      // border: 1px solid blue;
     }
     .navbar-brand {
     display: inline-block;
   }
 }
   .right-nav {
-    // border: 1px solid red;
     #float-right{
     float: none;
     #right {
       display: block;
       margin-top: 10px;
       float: right;
-      padding-right: 8px;
-      // border: 1px solid red;  
+      padding-right: 8px;  
     }
   }
 }
 
   .center-nav {
     display: inline-block;
-    // border: 1px solid orchid;
     padding-right: auto;
     
     #search {
@@ -323,7 +296,6 @@ sup {
       float: right;
       padding-right: 0px;
       #search-input {
-        // border: 1px solid red;
         i{
           font-size: 14px;
         }

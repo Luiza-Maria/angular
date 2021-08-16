@@ -16,7 +16,6 @@
             <button class="dropbtn" 
             *ngIf="isLogin || isLog" 
             (click)="showMenu()">
-            <!-- {{ menuToggler? 'Products<i class="fa fa-caret-down"></i>' : '<span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span>'}}  -->
              <span *ngIf="menuToggler">Products<i class="fa fa-caret-down"></i></span>
              <span *ngIf="!menuToggler" class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span>
             </button>
@@ -29,14 +28,14 @@
                       Women
                     </a>
                   </h3>
-                  <a routerLink="products" >Rochii</a>
-                  <a routerLink="products">Tricouri</a>
-                  <a routerLink="products">Pantaloni</a>
+                  <a routerLink="/products" >Rochii</a>
+                  <a routerLink="/products">Tricouri</a>
+                  <a routerLink="/products">Pantaloni</a>
                 </div>
       
                 <div class="col-lg-4">
                   <h3>
-                    <a routerLink="products ">
+                    <a routerLink="/products ">
                       Men
                     </a>
                   </h3>
@@ -47,13 +46,13 @@
       
                 <div class="col-lg-4 ">
                   <h3>
-                    <a routerLink="products ">
+                    <a routerLink="/products ">
                       Baby
                     </a>
                   </h3>
-                  <a [routerLink]="['/products']">Body</a>
-                  <a routerLink="products">Tricouri</a>
-                  <a routerLink="products">Pantaloni</a>
+                  <a routerLink="/products">Body</a>
+                  <a routerLink="/products">Tricouri</a>
+                  <a routerLink="/products">Pantaloni</a>
                 </div>
               </div>
           </div>
