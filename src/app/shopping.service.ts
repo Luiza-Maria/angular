@@ -33,19 +33,6 @@ export class ShoppingService {
 
   constructor(private http: HttpClient,private cartServ: CartServiceService  ) { }
   
-  // getSearchValue() {
-  //   return this.searchProduct.asObservable();
-  // }
-
-  // sendSearchProd(prod) {
-  //   this.searchProduct.next(prod);
-  // }
-
-  // addRoute(route) {
-  //   this.routeChange.push(route);
-  //   alert(this.routeChange);
-  // }
-
   getSearchValue() {
     return this.searchProd;
   }
@@ -53,11 +40,10 @@ export class ShoppingService {
   sendSearchProd(prod) {
     this.searchProd = prod;
   }
-///////////////////////////////////////
+
   getProd(): Observable<Product[]> {
     return this.http.get<Product[]>(url);
   }
-  ////////////////////////////////////
 
   updateList(product: QuantityProd, id: number): Observable<QuantityProd[]> {
     const urlUpdate = `${url}/${id}`;

@@ -18,8 +18,7 @@ const routes: Routes = [
   { path: 'navigation', component: NavigationComponent },
   { path: 'women', component: WomenComponent },
   { path: 'cart', component: CartPageComponent },
-  {
-    path: 'products', component: ProductsComponent},
+  {path: 'products', component: ProductsComponent},
   { path: 'prod-details', component: ProdDetailsComponent },
   { path: 'wish', component: WishlistComponent },
   { path: 'home', component: HomeComponent },
