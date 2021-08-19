@@ -22,12 +22,7 @@ export class ProdDetailsComponent implements OnInit {
   paragrafExpand: string;
   ifExpand: boolean = false;
   image;
-  // imgThumb1;
-  // products;
   shoppList = [];
-  // red = "red";
-  // blue = "blue";
-  // green = "green";
   selectedColor: string;
   colorBoolean: boolean = false;
   subscription: Subscription;
@@ -37,13 +32,10 @@ export class ProdDetailsComponent implements OnInit {
   ngOnInit() {
 
     this.cartServ.getProdCart().subscribe( prod => this.shoppList = prod);
-    // this.subscription = this.detailServ.getProduct().subscribe(prod => this.details = prod);
     this.details = this.detailServ.getProduct();
 
     this.ifExpand = false;
     this.initialParag = this.readMore.substring(0,100);
-
-    // this.activeRoute = this.servShopp.addRoute(this.route.snapshot.url[0].path);
   }
 
   decrementVal() {
